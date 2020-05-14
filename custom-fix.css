@@ -3,15 +3,10 @@
   div[class*=logoCell],
   div[class^=ms-siteLogoContainerInner] {
     [class*=logoWrapper] {
-      background-color: red;
+      background-color: red !important;
       > span {
-        color: white;
+        color: white !important;
       }
-    }
-    [class*=logoImg] {
-      height: 44px;
-      max-width: 192px;
-      transition: none;
     }
   }
 }
