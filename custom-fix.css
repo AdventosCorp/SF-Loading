@@ -1,0 +1,17 @@
+﻿div[role=banner] {
+   /* Site Logo */
+  div[class*=logoCell],
+  div[class^=ms-siteLogoContainerInner] {
+    [class*=logoWrapper] {
+      background-color: red;
+      > span {
+        color: white;
+      }
+    }
+    [class*=logoImg] {
+      height: 44px;
+      max-width: 192px;
+      transition: none;
+    }
+  }
+}
