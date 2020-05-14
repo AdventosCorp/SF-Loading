@@ -1,12 +1,3 @@
-﻿div[role=banner] {
-   /* Site Logo */
-  div[class*=logoCell],
-  div[class^=ms-siteLogoContainerInner] {
-    [class*=logoWrapper] {
-      background-color: red !important;
-      > span {
-        color: white !important;
-      }
-    }
-  }
+﻿.ms-siteLogoAcronym {
+    background-color: red !important;
 }
